@@ -30,13 +30,11 @@
 					<cloudHubDeployment>
 						<objectStoreV2>true</objectStoreV2>
 						<server>${server}</server>
-						<username>${username}</username>
-						<password>${password}</password>
 						<environment>${env}</environment>
 						<applicationName>${appName}</applicationName>
 						<muleVersion>${ver}</muleVersion>
 						<workers>${workers}</workers>
-						<workerType>${worker.Type}</workerType>
+						<workerType>${type}</workerType>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
