@@ -28,13 +28,13 @@
 				<extensions>true</extensions>
 				<configuration>
 					<cloudHubDeployment>
-						<objectStoreV2>true</objectStoreV2>
 						<server>${server}</server>
 						<environment>${environment}</environment>
-						<appName>${appName}</appName>
-						<muleVersion>${muleVersion}</muleVersion>
 						<workers>${workers}</workers>
 						<workerType>${workerType}</workerType>
+						<muleVersion>${muleVersion}</muleVersion>
+						<applicationName>${appName}</applicationName>
+						<objectStoreV2>true</objectStoreV2>
 					</cloudHubDeployment>
 				</configuration>
 			</plugin>
