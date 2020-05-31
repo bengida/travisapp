@@ -1,7 +1,9 @@
 language: java
 jdk:
     - openjdk8
-    
+cache:
+    directories:
+        - "$HOME/.cache"    
 jobs:
     - stage: deploy
       name: 'Deploy To Dev Environment'
